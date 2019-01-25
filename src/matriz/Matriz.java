@@ -36,40 +36,25 @@ public class Matriz {
 			for(int j=0; j<columnas; j++){
 			
 				aux=  1+rnd.nextInt(4);
-				matriz [i][j]= aux;
+				matriz [i][j]= aux;		
 				
-				for(int k=i;k==0;k-- )
-				{
+				for (int k=i;k==0;k--) {
 					for(int l=j;l==0;l--) {
 						
-						if(aux==matriz[k][l] )	{
-							
-							aux1=  1+rnd.nextInt(4);
-							matriz[k][l]= aux1;
-						
-						}
+						aux1= matriz [k][l];
+						if(aux==matriz [k][l])
 					}
 				}
-			
-			
-				
-			
+					
 				}
 				
 		}
 
-		
+	
 		return matriz;}
 	
 	
-	public static int [][] verificarMatriz (int filas, int columnas)
-	{
-		int [][] matrizverificada= new int [filas][columnas];
-		
-		
-		
-		return matrizverificada;
-	}
+	
 	
 	public static void mostrarMatrizLlena (int matriz [][]) {
 		

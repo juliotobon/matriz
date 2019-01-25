@@ -44,6 +44,8 @@ public class Matriz {
 						aux1= matriz [k][l];
 						if(aux==matriz [k][l]) {
 							
+							
+							
 						}
 							
 					}

@@ -42,7 +42,9 @@ public class Matriz {
 					for(int l=j;l==0;l--) {
 						
 						aux1= matriz [k][l];
-						if(aux==matriz [k][l])
+						if(aux==matriz [k][l]) {
+							
+						}
 							
 					}
 				}
